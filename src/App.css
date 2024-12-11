@@ -1,0 +1,57 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+ button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+} 
+
+ button:hover {
+  background-color: #45a049;
+} 
+
+.login-container,
+.register-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+input {
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.success {
+  color: green;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.message {
+  color: blue;
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+/* In your App.css or a separate theme.css */
+
+/* Default Light Mode Styles */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --button-bg: #007bff;
+    --button-text: #ffffff;
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    --bg-color: #2c2c2c;
+    --text-color: #ffffff;
+    --button-bg: #444;
+    --button-text: #ffffff;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+  }
+  
+  button {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
